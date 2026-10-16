@@ -1,0 +1,30 @@
+name: Bug report
+description: Report something that is not working in Measey.
+title: "[Bug] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Your Measey version, Cavalry version and operating system.
+      placeholder: Measey 1.6.3, Cavalry 2.7.2, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include selection type, easing settings and any custom expression.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or example scene
+      description: Optional. Remove private content before attaching a scene.
