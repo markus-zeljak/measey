@@ -1,15 +1,14 @@
 # Measey
 
-Shape responsive Magic Easing in Cavalry with weights and a Power slider.
+Simple easing for Cavalry. Adjust the **Power** slider and switch between **In**, **Out** and **Both** to find the right feel.
 
 **Version:** 1.6.3 · **Cavalry target:** 2.7.2 or later
 
 ## Features
 
-- In, Both and Out easing with adjustable weights and midpoint.
-- Live value and speed graphs with selected curves as overlays.
-- Custom expressions, saved presets and importable/exportable libraries.
-- Clear Magic Easing or approximate it with Bézier keyframes using Flatten.
+- **Power slider:** make easing softer or stronger with one control.
+- **In / Out / Both:** quickly choose where the easing happens.
+- **Optional fine-tuning:** adjust graph weights and midpoint, save presets or use custom expressions.
 
 ## Install
 
@@ -25,19 +24,20 @@ To update, replace the file, then close and reopen the panel.
 ## Use
 
 1. Select keyframes whose outgoing easing you want to change.
-2. Choose **In**, **Both** or **Out**.
-3. Adjust **Power** and drag the graph's weight handles.
+2. Choose **In**, **Out** or **Both**.
+3. Move the **Power** slider to adjust the easing strength.
 4. Click **Apply**.
 
-Both also has a movable midpoint. The Power slider uses whole numbers from 1–12; type a precise value of 1 or higher in its number field. Committing a typed number applies it immediately. **Power 1 clears Magic Easing** and sets the keyframes to Silver.
-
-Automatic application starts off. Enable **Apply on drag**, **Apply on direction** or **Apply on type** in Settings if wanted.
+For more control, adjust the graph's weight handles or the midpoint in Both.
 
 > [!TIP]
-> Click a weight handle to type an exact value. Right-click empty graph space to reset weights.
+> Enable **Apply on drag** and **Apply on direction** in Settings to apply changes automatically as you adjust Power or switch modes.
 
 ## Notes
 
+- The Power slider uses whole numbers from 1–12; type a precise value of 1 or higher in its number field. Committing a typed number applies it immediately. **Power 1 clears Magic Easing** and sets the keyframes to Silver.
+- Click a graph weight handle to type an exact value. Right-click empty graph space to reset weights.
+- Live value and speed graphs show selected curves as overlays.
 - The graph previews the first 10 selected keyframes. Apply, Clear and Flatten use the full selection.
 - Flatten is a Bézier approximation and reports its fitting error.
 - Expression previews support a subset of ExprTk syntax; loops, vectors, strings and user-defined functions are unsupported.
