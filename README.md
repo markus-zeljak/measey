@@ -29,7 +29,10 @@ Close and reopen the panel after updating. See [Cavalry's installation guide](ht
 
 The slider uses whole numbers from 1–12; type a precise value of 1 or higher in the number field. Committing a typed number applies it immediately. **Power 1 clears Magic Easing** and sets the keyframes to Silver.
 
-Automatic application starts off. Enable **Apply on drag**, **Apply on direction** or **Apply on type** in Settings if wanted. Click a weight handle to enter a number; right-click empty graph space to reset weights.
+Automatic application starts off. Enable **Apply on drag**, **Apply on direction** or **Apply on type** in Settings if wanted.
+
+> [!TIP]
+> Click a weight handle to type an exact value. Right-click empty graph space to reset weights.
 
 ## Limits
 
