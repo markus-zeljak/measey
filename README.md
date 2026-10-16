@@ -1,3 +1,7 @@
+<!-- Measey landscape demo -->
+
+https://github.com/user-attachments/assets/c4e34937-9b11-42cc-9adc-99196fe0f27d
+
 # Measey
 
 Simple easing for Cavalry. Adjust the **Power** slider and switch between **In**, **Out** and **Both** to find the right feel.
