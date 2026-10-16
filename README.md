@@ -8,6 +8,7 @@ Simple easing for Cavalry. Adjust the **Power** slider and switch between **In**
 
 - **Power slider:** make easing softer or stronger with one control.
 - **In / Out / Both:** quickly choose where the easing happens.
+- **Responsive easing:** uses Cavalry's native [Magic Easing](https://cavalry.studio/docs/user-interface/menus/window-menu/scene-window/time-editor/#magic-easing), so the easing adapts to changes in timing and values.
 - **Optional fine-tuning:** adjust graph weights and midpoint, save presets or use custom expressions.
 
 ## Install
@@ -32,6 +33,12 @@ For more control, adjust the graph's weight handles or the midpoint in Both.
 
 > [!TIP]
 > Enable **Apply on drag** and **Apply on direction** in Settings to apply changes automatically as you adjust Power or switch modes.
+
+### Why the Power slider?
+
+With default weights, **Power 3 = cubic** and **4 = quartic**. Higher values use the same power law: choose **Out** for quick travel followed by a long, gentle settle, saving manual curve finessing. The slider goes to **12**; type higher values for a more extreme tail.
+
+Native Magic Easing keeps the result responsive, making pre-comps with overrides easier to reuse and adjust.
 
 ## Notes
 
